@@ -1,0 +1,14 @@
+/Users/max/IdeaProjects/Academ-IT-School/05_BackEnd/Tasks/PhoneBookMaven/src/main/java/ru/academits/servlet/GetFilteredContactsServlet.java
+/Users/max/IdeaProjects/Academ-IT-School/05_BackEnd/Tasks/PhoneBookMaven/src/main/java/ru/academits/service/ContactsDeletion.java
+/Users/max/IdeaProjects/Academ-IT-School/05_BackEnd/Tasks/PhoneBookMaven/src/main/java/ru/academits/servlet/DeleteContactsServlet.java
+/Users/max/IdeaProjects/Academ-IT-School/05_BackEnd/Tasks/PhoneBookMaven/src/main/java/ru/academits/servlet/GetAllContactsServlet.java
+/Users/max/IdeaProjects/Academ-IT-School/05_BackEnd/Tasks/PhoneBookMaven/src/main/java/ru/academits/coverter/ContactConverter.java
+/Users/max/IdeaProjects/Academ-IT-School/05_BackEnd/Tasks/PhoneBookMaven/src/main/java/ru/academits/coverter/ContactValidationConverter.java
+/Users/max/IdeaProjects/Academ-IT-School/05_BackEnd/Tasks/PhoneBookMaven/src/main/java/ru/academits/service/ContactService.java
+/Users/max/IdeaProjects/Academ-IT-School/05_BackEnd/Tasks/PhoneBookMaven/src/main/java/ru/academits/coverter/ContactsIdsListConverter.java
+/Users/max/IdeaProjects/Academ-IT-School/05_BackEnd/Tasks/PhoneBookMaven/src/main/java/ru/academits/service/ContactValidation.java
+/Users/max/IdeaProjects/Academ-IT-School/05_BackEnd/Tasks/PhoneBookMaven/src/main/java/ru/academits/PhoneBook.java
+/Users/max/IdeaProjects/Academ-IT-School/05_BackEnd/Tasks/PhoneBookMaven/src/main/java/ru/academits/dao/ContactDao.java
+/Users/max/IdeaProjects/Academ-IT-School/05_BackEnd/Tasks/PhoneBookMaven/src/main/java/ru/academits/coverter/ContactsDeletionConverter.java
+/Users/max/IdeaProjects/Academ-IT-School/05_BackEnd/Tasks/PhoneBookMaven/src/main/java/ru/academits/servlet/AddContactServlet.java
+/Users/max/IdeaProjects/Academ-IT-School/05_BackEnd/Tasks/PhoneBookMaven/src/main/java/ru/academits/model/Contact.java
