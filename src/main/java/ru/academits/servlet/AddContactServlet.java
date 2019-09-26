@@ -24,19 +24,11 @@ public class AddContactServlet extends HttpServlet {
         try (OutputStream responseStream = resp.getOutputStream()) {
             String contactJson = req.getReader().lines().collect(Collectors.joining(System.lineSeparator()));
             Contact contact = contactConverter.convertFormJson(contactJson);
-
             ContactValidation contactValidation = phoneBookService.addContact(contact);
-
             String contactValidationJson = contactValidationConverter.convertToJson(contactValidation);
-            if (!contactValidation.isValid()) {
-                resp.setStatus(500);
-            }
 
             responseStream.write(contactValidationJson.getBytes(Charset.forName("UTF-8")));
         } catch (Exception e) {
-            /* Было в исходном проекте:
-            System.out.println("error in GetAllContactsServlet GET: ");
-             */
             System.out.println("error in AddContactServlet POST: ");
             e.printStackTrace();
         }
