@@ -57935,6 +57935,7 @@ AddItemFormvue_type_template_id_a09f6f90_render._withStripped = true
 //
 //
 var ERR_MSG_EMPTY_ITEMS = "Вы не заполнили поля: ";
+var ERR_MSG_PHONE_SYMBOLS_NOT_MATCH = "В номере телефона допустимы только цифры, пробел и знаки + - ( )";
 /* harmony default export */ var AddItemFormvue_type_script_lang_js_ = ({
   name: "AddItemForm",
   props: {
@@ -57973,6 +57974,11 @@ var ERR_MSG_EMPTY_ITEMS = "Вы не заполнили поля: ";
 
       if (this.newPhoneNumber === "") {
         notFilled.push(this.phoneNumberText);
+      }
+
+      if (!/^[\d \-+()]{1,20}$/.test(this.newPhoneNumber)) {
+        this.errorMessage = ERR_MSG_PHONE_SYMBOLS_NOT_MATCH;
+        return;
       }
 
       if (notFilled.length > 0) {

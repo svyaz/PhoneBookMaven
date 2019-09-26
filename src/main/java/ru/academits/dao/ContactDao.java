@@ -28,6 +28,13 @@ public class ContactDao {
         contact2.setLastName("Пупкин");
         contact2.setPhone("913-987-6543");
         contactList.add(contact2);
+
+        Contact contact3 = new Contact();
+        contact3.setId(getNewId());
+        contact3.setFirstName("Максим");
+        contact3.setLastName("Кужелев");
+        contact3.setPhone("+7(913) 926-8624");
+        contactList.add(contact3);
     }
 
     private int getNewId() {

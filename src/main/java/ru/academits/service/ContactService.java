@@ -36,9 +36,9 @@ public class ContactService {
             return contactValidation;
         }
 
-        if (contact.getPhone().isEmpty()) {
+        if (!contact.getPhone().matches("^[\\d \\-+()]{1,20}$")) {
             contactValidation.setValid(false);
-            contactValidation.setError("Поле Телефон должно быть заполнено.");
+            contactValidation.setError("В номере телефона допустимы только цифры, пробел и знаки + - ( )");
             return contactValidation;
         }
 
